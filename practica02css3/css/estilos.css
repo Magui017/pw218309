@@ -67,13 +67,40 @@ header nav ul li{
 	content: "• ";
 	color: #b28787;
 }
+#secc03art04{
+	padding-top: 60px;
+}
 #segundaseccion article{
 	padding-right: 130px;
 	text-align: right;
 }
+#terceraseccion article{
+	display: inline-block;
+	padding-left: 8px;
+	vertical-align: top;
+	width: 23%;
 
+}
+#terceraseccion article img{
+	/*alineacion vertical del tecto que lo rodea*/
+	vertical-align: middle;
+}
+#terceraseccion article input[type="button"]{
+	background: #8bc500;
+	border-radius: 5px;
+	color: white;
+}
+#terceraseccion article input[type="email"]{
+	border-radius: 5px;
+}
 .colorrosa{
 	color: #FF0099;
+}
+.colorazul{
+	color: #4267B3;
+}
+.colorverde{
+	color: #8BC500;
 }
 .letragrande{
 	font-size: 3.5em; /* 3.5x16 */
