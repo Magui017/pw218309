@@ -1,0 +1,21 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	/*1078 es requerimiento del cliente*/
+	max-width: 1078px;
+	min-height: 1078px;
+
+}
+header{
+	/*float: right;*/
+	margin-right: -235px;
+	margin-top: 15px;
+	position: relative;
+}
+header nav ul li{
+	display: inline-block;
+	font-size: 1.8em;
+	margin-right: 15px;
+	padding-bottom:  2px;
+
+}
