@@ -29,6 +29,7 @@ window.onload=function(){
     		}
     			document.getElementById("operando1").value+=valor;
     	}else{
+            if(operador =="")
 
     		var valorInput=document.getElementById("operando2").value;
     		if (valorInput=="0") {
@@ -58,6 +59,21 @@ window.onload=function(){
         ocho.addEventListener("click",numeros)
         var nueve = document.getElementById("nueve")
         nueve.addEventListener("click",numeros)
+    }
+
+    var resultadoigual = function(){
+        operado1= document.getElementById('operado1').value
+        operado2= document.getElementById('operado2').value
+        document.getElementById('resultado').value=eval()
+
+    }
+
+    var reinicio = function(){
+        document.getElementById('operado1').value="0"
+        document.getElementById('operado2').value="0"
+        document.getElementById('resultado').value="0"
+        operador=""
+
     }
 
 }
