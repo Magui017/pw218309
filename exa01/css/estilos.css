@@ -1,0 +1,133 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0 auto;
+	max-width: 1078px;
+	min-width: 1078px;
+	background-image: url("img/fondo.png");
+}
+header{
+	background: #3a3a3a;
+	color: white;
+	vertical-align: top;
+	padding: 10px 20px;
+	padding-bottom: 10px;
+	text-align: right;
+}
+header ul{
+	display: inline-block;
+	margin: 0px;
+}
+header ul li{
+	display: inline-block;  /*para que quede en linea*/
+	list-style-type: none;
+	margin: 0px;
+	margin-right: 20px;
+}
+header input{
+	margin-right: 10px; 
+}
+header ul li img{  /*para centrar la imagen y el texto*/
+	position: relative;
+	top: 7px;
+}
+header input{ 
+	color: white;
+	width: 90px;
+	height: 30px;
+}
+#sitepoint{
+	float: left;
+}
+#login{
+	background:#3a3a3a;
+}
+#Signup{
+	background: #3ec9cb;
+	border: 0px; /*si no se pone queda el borde de otro color*/
+}
+#sec01{
+	display: flex;
+	padding-top: 18px;
+	background:#e62d85;
+	padding-bottom: 18px;
+}
+#sec01 input {
+    color: #e62d85;
+	background: white;
+	border: 0px;
+	width: 345px;
+	height: 40px;
+}
+#sec01 article span{
+	display: inline-block;
+}
+#sec01 article{
+	margin-right: 20px;
+}
+#sp1{
+	margin-right: 80px;
+	margin-left: 20px;
+}
+#sp2{
+	margin-left: 45px;
+}
+#sp3{
+	margin-right: 50px;
+}
+#ar21{
+	margin-left: 30px;
+}
+#FIND{
+	background: #3ec9cb;
+	border: 0px; 
+}
+#sec02{
+	position: relative;
+	padding-top: 30px;
+	padding-left: 20px;	
+	background: #3a3a3a;
+	height: 380px;
+	
+}
+#sec02 input {
+	border: 0px;
+	width: 225px;
+	height: 50px;
+}
+#sec02 img{
+	position: relative;
+	right: -535px;
+	top: -300px;
+	width: 40%;
+
+}
+#sec03{
+	padding-top: 18px;
+	background:#ef8c25;
+	padding-bottom: 18px;
+}
+#sec03 span{
+	margin-left: 20px;
+}
+.colorBlanco{
+	color: white;
+}
+.nito{
+	font-weight: bold;
+}
+.letraChica{
+	font-size: 1em;
+}
+.letraMediana2{
+	font-size: 1.2em;
+}
+.letraMediana{
+	font-size: 1.3em;
+}
+.letraMediana3{
+	font-size: 1.4em;
+}
+.letraGrande{
+	font-size: 2.6em;
+}
+
