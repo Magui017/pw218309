@@ -1,0 +1,30 @@
+{
+  "name": "randomuserelectron",
+  "version": "1.0.0",
+  "description": "Usuarios para electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "empaqueta": "electron-packager . Random --overwrite --asar"
+  },
+  "keywords": [
+    "Electron",
+    "usuarios",
+    "random"
+  ],
+  "Dependencies": {
+    "asar": "^0.14.5",
+    "electron": "^3.0.9",
+    "electron-packager": "^12.2.0",
+    "electron-require": "^0.3.0"
+  },
+  "author": "armenta bojorquez lizbeth margarita",
+  "license": "MIT",
+  "devDependencies": {
+    "asar": "^0.14.5",
+    "electron": "^3.0.9",
+    "electron-packager": "^12.2.0",
+    "electron-require": "^0.3.0"
+  }
+}
